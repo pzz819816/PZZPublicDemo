@@ -1,0 +1,16 @@
+PODS:
+  - PZZPublicDemo (0.1.0)
+
+DEPENDENCIES:
+  - PZZPublicDemo (from `../`)
+
+EXTERNAL SOURCES:
+  PZZPublicDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PZZPublicDemo: a425ee2e35f4d8528fae3ef6ebb1f4e0ed924761
+
+PODFILE CHECKSUM: 9c548d1bcddb6acdf61ada5ace3ea979139e2d95
+
+COCOAPODS: 1.11.2

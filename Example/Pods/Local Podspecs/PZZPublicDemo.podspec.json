@@ -1,0 +1,22 @@
+{
+  "name": "PZZPublicDemo",
+  "version": "0.1.0",
+  "summary": "A short description of PZZPublicDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PZZ/PZZPublicDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PZZ": "907104252@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/PZZ/PZZPublicDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PZZPublicDemo/Classes/**/*"
+}

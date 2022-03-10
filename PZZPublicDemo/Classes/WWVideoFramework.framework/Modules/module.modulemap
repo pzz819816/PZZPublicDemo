@@ -1,0 +1,6 @@
+framework module WWVideoFramework {
+  umbrella header "WWVideoFramework.h"
+
+  export *
+  module * { export * }
+}
