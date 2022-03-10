@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21E3F47027D9CCE0004EBA96 /* WWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21E3F46F27D9CCE0004EBA96 /* WWResource.bundle */; };
-		21E3F47227D9CCE8004EBA96 /* WWVideoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E3F47127D9CCE8004EBA96 /* WWVideoFramework.framework */; };
+		21E3F47C27D9E746004EBA96 /* WWInstructionFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E3F47B27D9E746004EBA96 /* WWInstructionFramework.framework */; };
+		21E3F47E27D9E761004EBA96 /* WWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21E3F47D27D9E761004EBA96 /* WWResource.bundle */; };
 		68E9B0AF57EB59B88D1C32A49851444E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		692D345C69C5F1A29C8ED1AF0CF0F375 /* Pods-PZZPublicDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2220B55967BE369588AE1352B565E29C /* Pods-PZZPublicDemo_Example-dummy.m */; };
 		9B3B7C0DB647831D6DE8CBC541C3AF1F /* Pods-PZZPublicDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 509208BD853C7565DE9853282B49FD10 /* Pods-PZZPublicDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,8 +41,8 @@
 		0BF871D0B5A6706BA107C069B37CBAE2 /* PZZPublicDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZZPublicDemo; path = PZZPublicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17749CD3BEEE7C3134C24DC3697354C6 /* PZZPublicDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZZPublicDemo-dummy.m"; sourceTree = "<group>"; };
 		211120DC7C98266602E82DCAA5F53D3C /* Pods-PZZPublicDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PZZPublicDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		21E3F46F27D9CCE0004EBA96 /* WWResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WWResource.bundle; path = PZZPublicDemo/Assets/WWResource.bundle; sourceTree = "<group>"; };
-		21E3F47127D9CCE8004EBA96 /* WWVideoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WWVideoFramework.framework; path = PZZPublicDemo/Classes/WWVideoFramework.framework; sourceTree = "<group>"; };
+		21E3F47B27D9E746004EBA96 /* WWInstructionFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WWInstructionFramework.framework; path = PZZPublicDemo/Classes/WWInstructionFramework.framework; sourceTree = "<group>"; };
+		21E3F47D27D9E761004EBA96 /* WWResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WWResource.bundle; path = PZZPublicDemo/Assets/WWResource.bundle; sourceTree = "<group>"; };
 		2220B55967BE369588AE1352B565E29C /* Pods-PZZPublicDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PZZPublicDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		3CE5B7544CE6CF8606A76EDA6D8DF94F /* PZZPublicDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PZZPublicDemo.modulemap; sourceTree = "<group>"; };
 		4265D6990D3881204FA66A293DAC94CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E3F47C27D9E746004EBA96 /* WWInstructionFramework.framework in Frameworks */,
 				A3BF98513579D3364FA1034DF114C3E2 /* Foundation.framework in Frameworks */,
-				21E3F47227D9CCE8004EBA96 /* WWVideoFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,8 +198,8 @@
 		DC6ABB154C4AA1B98C6B8B2857B002CD /* PZZPublicDemo */ = {
 			isa = PBXGroup;
 			children = (
-				21E3F47127D9CCE8004EBA96 /* WWVideoFramework.framework */,
-				21E3F46F27D9CCE0004EBA96 /* WWResource.bundle */,
+				21E3F47D27D9E761004EBA96 /* WWResource.bundle */,
+				21E3F47B27D9E746004EBA96 /* WWInstructionFramework.framework */,
 				56A49F5B9363073D2497BC4C707E8697 /* Pod */,
 				0A0861D19EB95CC09FE55DF1B916458D /* Support Files */,
 			);
@@ -359,7 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21E3F47027D9CCE0004EBA96 /* WWResource.bundle in Resources */,
+				21E3F47E27D9E761004EBA96 /* WWResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
