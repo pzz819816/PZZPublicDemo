@@ -1,9 +1,9 @@
 {
   "name": "PZZPublicDemo",
   "version": "0.1.0",
-  "summary": "A short description of PZZPublicDemo.",
+  "summary": "VideoSDK",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/PZZ/PZZPublicDemo",
+  "homepage": "https://github.com/pzz819816/PZZPublicDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,23 @@
     "PZZ": "907104252@qq.com"
   },
   "source": {
-    "git": "https://github.com/PZZ/PZZPublicDemo.git",
+    "git": "https://github.com/pzz819816/PZZPublicDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PZZPublicDemo/Classes/**/*"
+  "vendored_frameworks": [
+    "PZZPublicDemo/Classes/WWInstructionFramework.framework"
+  ],
+  "resource_bundles": {
+    "Resources": [
+      "PZZPublicDemo/Assets/WWResource.bundle"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.1"
+    ]
+  }
 }

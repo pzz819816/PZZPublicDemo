@@ -1,15 +1,36 @@
 PODS:
-  - PZZPublicDemo (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - PZZPublicDemo (0.1.0):
+    - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
   - PZZPublicDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   PZZPublicDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PZZPublicDemo: a425ee2e35f4d8528fae3ef6ebb1f4e0ed924761
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  PZZPublicDemo: 97d6ad28d855cc05bed8b4200ad969321782d89f
 
 PODFILE CHECKSUM: 9c548d1bcddb6acdf61ada5ace3ea979139e2d95
 

@@ -30,12 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PZZPublicDemo/Classes/**/*'
+  #s.source_files = 'PZZPublicDemo/Classes/**/*'
   #s.resources    = 'PZZPublicDemo/Assets/WWResource.bundle'
 
+  s.vendored_frameworks = ['PZZPublicDemo/Classes/WWInstructionFramework.framework'] #自己的framework在工程中的路径
+
   s.resource_bundles = {
-    'PZZPublicDemo' => ['PZZPublicDemo/Assets/WWResource.bundle']
-  }
+    'PZZResources' => ['PZZPublicDemo/Assets/WWResource.bundle']
+  }#资源文件的路径，会在pod中创建“Resources”的文件夹
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

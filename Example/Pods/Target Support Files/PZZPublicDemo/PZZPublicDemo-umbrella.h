@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "TestView.h"
+#import "WWInstructionFramework.h"
+#import "WWInstructVC.h"
 
 FOUNDATION_EXPORT double PZZPublicDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char PZZPublicDemoVersionString[];

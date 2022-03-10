@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F9620B79E8216A017C25A31 /* Pods_PZZPublicDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DCB286E15D462AF0EEF3DF /* Pods_PZZPublicDemo_Tests.framework */; };
+		21E3F48427D9FB0C004EBA96 /* WWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21E3F48327D9FB0C004EBA96 /* WWResource.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		10B6F9759690FDC54ACBD7A8 /* Pods-PZZPublicDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZZPublicDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		21E3F48327D9FB0C004EBA96 /* WWResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WWResource.bundle; path = ../PZZPublicDemo/Assets/WWResource.bundle; sourceTree = "<group>"; };
 		4F3C94528394DCA7F9B0A598 /* Pods-PZZPublicDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZZPublicDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-PZZPublicDemo_Tests/Pods-PZZPublicDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53DCB286E15D462AF0EEF3DF /* Pods_PZZPublicDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZZPublicDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PZZPublicDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZZPublicDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +62,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83A3A636208EEBAE026AE56C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83A3A636208EEBAE026AE56C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B1B8D1E8714BBBCD8034AEC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1B8D1E8714BBBCD8034AEC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B8EE1841BA61FBD6375100D8 /* Pods-PZZPublicDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZZPublicDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6667B96723197CE0B37F50E /* Pods-PZZPublicDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZZPublicDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PZZPublicDemo_Tests/Pods-PZZPublicDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D80EAC15438481FC3E6A34BC /* Pods_PZZPublicDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PZZPublicDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F614B7F079AA945180128B81 /* PZZPublicDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PZZPublicDemo.podspec; path = ../PZZPublicDemo.podspec; sourceTree = "<group>"; };
+		F614B7F079AA945180128B81 /* PZZPublicDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PZZPublicDemo.podspec; path = ../PZZPublicDemo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +105,13 @@
 				D6667B96723197CE0B37F50E /* Pods-PZZPublicDemo_Tests.debug.xcconfig */,
 				4F3C94528394DCA7F9B0A598 /* Pods-PZZPublicDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				21E3F48327D9FB0C004EBA96 /* WWResource.bundle */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PZZPublicDemo */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -209,6 +211,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				0372B0D01A53D1C917A5CF42 /* [CP] Embed Pods Frameworks */,
+				15C75060DC1B92EC76669D91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PZZ;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6NTE3J4WW2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E3F48427D9FB0C004EBA96 /* WWResource.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -302,15 +310,33 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PZZPublicDemo/PZZPublicDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PZZPublicDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15C75060DC1B92EC76669D91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PZZPublicDemo/Resources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PZZPublicDemo_Example/Pods-PZZPublicDemo_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		642D86454D9CC1F7E95AE018 /* [CP] Check Pods Manifest.lock */ = {
@@ -494,11 +520,16 @@
 			baseConfigurationReference = B8EE1841BA61FBD6375100D8 /* Pods-PZZPublicDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NTE3J4WW2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PZZPublicDemo/PZZPublicDemo-Prefix.pch";
 				INFOPLIST_FILE = "PZZPublicDemo/PZZPublicDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwayTechnology.WWInstructionSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +541,16 @@
 			baseConfigurationReference = 10B6F9759690FDC54ACBD7A8 /* Pods-PZZPublicDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NTE3J4WW2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PZZPublicDemo/PZZPublicDemo-Prefix.pch";
 				INFOPLIST_FILE = "PZZPublicDemo/PZZPublicDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwayTechnology.WWInstructionSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
