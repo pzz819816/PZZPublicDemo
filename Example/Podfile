@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PZZPublicDemo_Example' do
+  pod 'PZZPublicDemo', :path => '../'
+
+  target 'PZZPublicDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
